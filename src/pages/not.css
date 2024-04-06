@@ -1,0 +1,19 @@
+button{
+    margin-left: 600px;
+    padding: 20px;
+    color: aliceblue;
+    box-shadow: 0 0 10px 10px greenyellow;
+   background-color: rgb(104, 104, 238);
+    width: 200px;
+}
+img{
+    margin-top: 0px;
+    margin-left:0px;
+}
+h1{
+    font-weight: bolder;
+    margin-left:450px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}

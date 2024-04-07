@@ -7,13 +7,13 @@ import axios from 'axios'
 
 export default function Userpage() {
 const [dish,setDish]=useState()
-const [method,setMethod]=useState()
+const [comment,setComment]=useState()
  
 const create = (e)=>{
 
-  ;
+  
   const data={"Dishname":dish,
-  "Method":method,
+  "Comment":comment,
 
 }
 
@@ -35,8 +35,8 @@ const create = (e)=>{
     <label for="dish">Dish Name *</label><br/>
     <input type="name" value={dish}required onChange={(e)=>setDish(e.target.value)}/><br/>
 
-    <label for="text"></label> Method*<br/>
-     <textarea id="text"  rows="10" cols="50"value={method}required onChange={(e)=>setMethod(e.target.value)}></textarea><br/>
+    <label for="text"></label> Comment*<br/>
+     <textarea id="text"  rows="10" cols="50"value={comment}required onChange={(e)=>setComment(e.target.value)}></textarea><br/>
        <button type="submit" class="btn" onClick={create}>Create</button>
     
   </form>

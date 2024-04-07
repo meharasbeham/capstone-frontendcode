@@ -1,4 +1,4 @@
-import React ,{useEffect}from 'react'
+import React from 'react'
 import './Menu.css'
 import briyani from './briyani.jpg'
 import vegtable from './vegetable.jpg'
@@ -8,15 +8,7 @@ import { Link } from 'react-router-dom'
 
 
 export default function Menu() {
-  useEffect(()=>{
-
-    fetch("http://localhost:3500/")
-    .then(res=>{
-      return res.json();
-    })
-    
-    },[]);
-    
+  
   return (
     <div>
 

@@ -19,7 +19,7 @@ export default function Home() {
 
  <h1>welcome indian foods</h1>
 
-<img src={imge} id="pic" width={"1250px"}height={"600px"} ></img>
+<img src={imge} id="pic" width={"1250px"}height={"600px"} alt='img'/>
 <footer>Thank you for visit indian food page</footer>
 
 </div>
